@@ -30,7 +30,8 @@
         </SimpleCard>
       </div>
     </div>
-    <h3>{{ $t("add_book") }}</h3>
+    <hr />
+    <h2>{{ $t("add_book") }}</h2>
     <FormKit
       type="form"
       id="booksForm"
@@ -75,7 +76,8 @@
       />
       <!-- <pre wrap>{{ value }}</pre> -->
     </FormKit>
-    <h3>{{ $t("remove_book") }}</h3>
+    <hr />
+    <h2>{{ $t("remove_book") }}</h2>
     <FormKit
       type="form"
       id="deleteForm"

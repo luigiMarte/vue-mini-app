@@ -44,12 +44,18 @@ export default {
   languages: "Lenguas",
   loading: "Loading...",
   loading_books: "Cargando Libros...",
+  pinnia_exp_actions:
+    "Ahora ya podemos crear los metódos que necesitemos dentro de Actions",
+  pinnia_exp_getters:
+    "Podemos hacer lo mismo dentro de Getters. Por ejemplo, crear un método para retornar solo los libros que tengan descuento",
   pinnia_exp_intro:
     "Vamos a hacer un CRUD para agregar y eliminar libros de un catálogo usando algunas herrmaientas de apartados anteriores, como Formkit para el uso de formularios y vamos a añadir una herrramienta nueva: Pinnia, para crear una Store donde almacenar los libros en la aplicación de manera centralizada .",
   pinnia_exp_pinnia:
-    "Pinnia: useBooksStore: Conecta al store de libros para acceder a los datos y métodos relacionados. \nstoreToRefs: Desestructura el estado reactivo del store para usar las propiedades books, loading, y error directamente.",
+    "Pinnia: useBooksStore: Conecta al store de libros para acceder a los datos y métodos relacionados. Vamos a simular que traemos datos de una API, para eso usaremos el método fetchBooks conforme se muestra a continuación",
   pinnia_exp_component:
     "Carga Inicial: Al montar, se obtiene la lista de libros desde el store. \nAgregar Libros: A través de un formulario, el usuario envía datos para crear un nuevo libro. Los datos se estructuran en un objeto payload y se almacenan en el store. El formulario se resetea después de la operación. \nEliminar Libros: Se recibe un identificador desde un formulario o acción. El libro correspondiente es eliminado del store. El formulario se resetea tras la operación. \nInterfaz Visual: Usa componentes reutilizables como SimpleCard para mostrar libros y RoutesButton para navegación.",
+  pinnia_exp_structure:
+    " Creamos una Store que va a contener el state, las acctions y los getters. Sí nuestra aplicación fuera mas grande podríamos separar dentro del mismo store el State, las actions y los getters en archivos diferentes para facilitar su manejo.",
   remove: "Eliminar",
   remove_book: "Eliminar Libro",
   save_changes: "Guardar",

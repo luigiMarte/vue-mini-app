@@ -44,12 +44,17 @@ export default {
   languages: "Languages",
   loading: "Loading...",
   loading_books: "Loading books...",
+  pinnia_exp_actions: "We are ready to create our Actions methods",
+  pinnia_exp_getters:
+    "We also can do the same with getters to create methods. For instance a method to return only books with discount",
   pinnia_exp_intro:
     "Let's create a CRUD to add and delete books from a catalog using some tools from previous sections, such as Formkit for handling forms, and we'll introduce a new tool: Pinia, to create a Store for centrally storing the books in the application.",
   pinnia_exp_pinnia:
-    "Pinia: useBooksStore: Connects to the books store to access related data and methods. storeToRefs: Destructures the reactive state of the store to directly use the books, loading, and error properties.",
+    "Pinia: useBooksStore: Connects to the books store to access related data and methods. We are going to simulate fetching data from an API; for this, we will use the fetchBooks method as shown below..",
   pinnia_exp_component:
     "**Initial Load:** On mount, the book list is fetched from the store. \n**Adding Books:** Through a form, the user submits data to create a new book. The data is structured into a `payload` object and stored in the store. The form is reset after the operation. \n**Deleting Books:** An identifier (`id`) is received from a form or action. The corresponding book is removed from the store. The form is reset after the operation. \n**Visual Interface:** Reusable components such as `SimpleCard` are used to display books, and `RoutesButton` is used for navigation.",
+  pinnia_exp_structure:
+    "We create a Store that will contain the state, actions, and getters. If our application were larger, we could separate the state, actions, and getters into different files within the same store to make it easier to manage.",
   remove: "Remove",
   remove_book: "Remove book",
   save_changes: "Save changes",

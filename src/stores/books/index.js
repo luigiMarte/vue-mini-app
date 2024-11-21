@@ -16,6 +16,7 @@ export const useBooksStore = defineStore("books", {
       try {
         // Simulated API call with mock data
         const mockBooks = booksCatalog;
+        // Save books data in State
         this.books = mockBooks;
       } catch (error) {
         this.error = error.message;

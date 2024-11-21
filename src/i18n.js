@@ -9,6 +9,7 @@ const i18n = createI18n({
     en,
     es,
   },
+  allowHTML: true,
 });
 
 export default i18n;
