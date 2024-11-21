@@ -1,0 +1,13 @@
+@use "_variables";
+
+.vertical-spacing-small {
+  margin: variables.$space-small;
+}
+
+.vertical-spacing-medium {
+  margin: variables.$space-medium;
+}
+
+.vertical-spacing-large {
+  margin: variables.$space-large;
+}
